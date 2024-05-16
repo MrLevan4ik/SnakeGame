@@ -7,7 +7,7 @@ pg.init()  # включение пайгейма
 
 version = "1.0.0"  # Версия игры
 author = "LEVAN"  # Автор игры
-lang = "en" # ru or en
+lang = "en" # язык ru или en 
 
 block_size = 20  # размер одного блока
 
