@@ -14,7 +14,7 @@ block_size = 20  # размер одного блока
 screen = pg.display.set_mode((block_size * 40, block_size * 30))  # создание окошка
 pg.display.set_caption(f"Snake {version}")
 
-cheat_mode = True
+cheat_mode = False
 
 if cheat_mode == True:
     pg.display.set_caption(f"Snake {version}, cheat={cheat_mode}")
