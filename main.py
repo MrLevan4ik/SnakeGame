@@ -5,7 +5,7 @@ import random
 
 pg.init()  # включение пайгейма
 
-version = "0.1.3"  # Версия игры
+version = "1.0.0"  # Версия игры
 author = "LEVAN"  # Автор игры
 lang = "en" # ru or en
 
@@ -216,7 +216,7 @@ while True:
         text3_ru = f1.render("Счёт: " + str(len(snake)), True, pg.Color("black"))
         screen.blit(text3_ru, (0, 0))
         counter_ru = f1.render("Скорость: " + str(fps), True, pg.Color("black"))
-        screen.blit(counter_ru, (0, 10))
+        screen.blit(counter_ru, (0, 20))
     elif lang == "en":
         text3_en = f1.render("Check: " + str(len(snake)), True, pg.Color("black"))
         screen.blit(text3_en, (0, 0))
